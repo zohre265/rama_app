@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "361762239012",
+    "project_id": "rama-b984e",
+    "storage_bucket": "rama-b984e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361762239012:android:48394a18ece18b61729eb1",
+        "android_client_info": {
+          "package_name": "App.rama.com"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCl9BIUD3SQoMVTIJStYJfR717Z5r0Ugu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

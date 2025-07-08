@@ -1,0 +1,8 @@
+
+{
+  "name": "Rama - AI Storybook Creator",
+  "description": "A multimedia, social, and collaborative app for audio-visual book reading, where users can create stories with AI and record their own voice.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
