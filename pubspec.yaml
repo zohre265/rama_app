@@ -1,0 +1,58 @@
+name: rama_app
+description: برنامه کتاب‌خوانی اجتماعی صوتی تصویری راما
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.10.0
+  firebase_auth: ^4.6.1
+  firebase_storage: ^11.2.3
+  cloud_firestore: ^4.7.1
+  firebase_ui_auth: ^1.5.0
+  flutter_localizations:
+    sdk: flutter
+  bottom_navy_bar: ^6.0.0
+  file_picker: ^6.1.1
+  audioplayers: ^5.2.1
+  flutter_sound: ^9.2.13
+  permission_handler: ^11.3.1
+  share_plus: ^7.2.1
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/audio/
+
+  fonts:
+    - family: BNazanin
+      fonts:
+        - asset: fonts/persian_fonts/B-NAZANIN.TTF
+    - family: BKoodak
+      fonts:
+        - asset: fonts/persian_fonts/B-Koodak.TTF
+    - family: BYekan
+      fonts:
+        - asset: fonts/persian_fonts/B-Yekan.ttf
+    - family: Shabnam
+      fonts:
+        - asset: fonts/persian_fonts/Shabnam-Regular.ttf
+        - asset: fonts/persian_fonts/Shabnam-Bold.ttf
+    - family: Vazir
+      fonts:
+        - asset: fonts/persian_fonts/Vazir-Regular.ttf
+    - family: Dana
+      fonts:
+        - asset: fonts/persian_fonts/Dana-Regular.ttf
+        - asset: fonts/persian_fonts/Dana-Bold.ttf
