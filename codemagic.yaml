@@ -12,6 +12,8 @@ workflows:
     scripts:
       - name: Build APK
         script: |
+          cd ramabook
+          flutter pub get
           flutter build apk --release
     artifacts:
-      - build/app/outputs/flutter-apk/app-release.apk
+      - ramabook/build/app/outputs/flutter-apk/app-release.apk
