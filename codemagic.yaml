@@ -5,7 +5,7 @@ workflows:
     environment:
       flutter: stable
       android_signing:
-        keystore: keystore.jks
+        keystore: ramabook/android/app/keystore.jks
         keystore_password: zohre9136431
         key_alias: parsa
         key_password: zohre9136431
